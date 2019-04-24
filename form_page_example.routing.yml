@@ -1,0 +1,7 @@
+form_page_example:
+  path: /custom-site-settings
+  defaults:
+    _title: 'Drupal 8-Form API'
+    _form:  '\Drupal\form_page_example\Form\FormPage'
+  requirements:
+    _permission: 'access content'
